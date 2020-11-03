@@ -1,0 +1,41 @@
+.flex_wrapper {
+    display: flex;
+    
+}
+
+.sidebar__inner {
+    background-color: #0f619f;
+    width: 15rem;
+    color:white;
+    text-align: center;
+    height: 100vh;
+    position: fixed;
+}
+
+.dashboard__inner {
+    background-color: #ebf6fd;
+    flex: 1;
+    margin-left: 15rem;
+    
+}
+
+
+.dashboard__footer {
+    background-color: white;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    p {
+        margin-top:5px ;
+    }
+
+    a {
+        text-decoration: none;
+        color: #0f619f;
+    }
+}
+

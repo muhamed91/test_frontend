@@ -1,0 +1,26 @@
+.dashboard__details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    font-size: 0.8rem;
+
+
+    &--bc {
+        padding: 1rem 0;
+        color:#4a81ab; ;
+        a {
+            color: #4a81ab;
+            text-decoration: none;
+            font-size: 0.8rem;
+
+
+            &:focus {
+                font-weight: bold;
+            }
+        }
+    }
+
+    &--date {
+        font-weight: 600;
+    }
+}
